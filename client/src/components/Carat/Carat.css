@@ -1,0 +1,28 @@
+.carats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carat {
+    width: 130px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+
+.carats p {
+    margin-top: 7px;
+    color: red;
+}
+
+.diamondBtns {
+    display: flex;
+}
+
+.diamondBtns button {
+    background: none;
+    color: aliceblue;
+}

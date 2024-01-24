@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Dependency directories
+/lib/
+/vendor/
+/venv/
+/pip-selfcheck.json
+
+# Server-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.local
+
+# Server generated files
+build/
+dist/
+out/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# System
+*.swp
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
